@@ -1,0 +1,217 @@
+
+body {
+    background-color: #41403f;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+ 
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #3bc492;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #c0392b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #727170;
+    margin: 3em 0 0 0;
+    padding: 0;
+}
+
+ul {
+    padding: 50px 0;
+}
+
+li {
+    padding: .25em;
+    font-size: 20px;
+}
+
+
+
+/* ==========================================================================
+   title bar
+   ========================================================================== */
+
+.navbar{
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+
+.countdown {
+    line-height: 1.2em;
+    margin: .5em ;
+    padding: 20px 10px 0px;
+    max-width: 800px;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.example--1 .countdown {
+    background: #f7f7f7;
+    line-height: 1.4;
+    padding: 10px 0;
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+.jumbotron {
+    margin: 35px 0 0 0;
+    padding: 75px 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+
+    background-image: url('../img/serverbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-size: 2em;
+    
+}
+
+.jumbotron h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.jumbotron h5 {
+    color: white;
+    font-weight: 700;
+    text-align: left;
+}
+
+.jumbotron p {
+    text-align: left;
+    color: white
+}
+
+.safecode {
+    border: 3px #fff solid;
+    width: 250px;
+    margin: 30px auto;
+    padding: 0 0 10px 0;
+}
+
+
+.lightthumbnail {
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 1%;
+    border : 1px solid #fff;
+
+}
+
+
+
+.footer {
+
+    height: 300px;
+	background-color: #41403f;
+	color: white;
+    padding: 20px 0; 
+
+}
+
+.footer h1 {
+	font-size: 2em;
+	color: white;
+}
+
+.footer h2 {
+    font-size: 1.75em;
+    color: white;
+}
+
+
+.footer p {
+	color: white;
+	font-size: 18px;
+    max-width: 100%;
+}
+
+.logo-holder {
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}
+
+.logo-holder li {
+    display: inline-block;
+    margin: 2%;
+    max-width: 17%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+/* Copyright Wrap */
+
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: right;
+}
+
+#c p {
+	color: white
+}
+
